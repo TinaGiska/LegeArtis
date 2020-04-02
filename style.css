@@ -92,46 +92,54 @@
 
 body {
   margin: 0;
-  background-color: #93add6;
+  background-color: #C0D7DD;
   font-family: "Open Sans", sans-serif; }
 
-header {
-  background-color: #313234;
-  height: 50px; }
+  header {
+  background-color: #ffffff;
+  height: 0px; }
 
 nav img {
   padding: 10px 0;
-  width: 100px;
-  height: 50px; }
+  width: 3%;
+}
+
 nav ul {
-  padding: 0px;
+  padding: 5px;
   list-style-type: none;
   float: right; }
+
 nav a {
+  font-size: 35px;
   line-height: 50px;
   padding: 0 20px;
   display: block;
-  color: black;
+  color: #e18375;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 10px;
+  word-spacing: 20px; }
   nav a:hover {
-    color: #93D2D6; }
+    color: #74A8B9; }
 
 .hero {
-  background-image: url(https://images.pexels.com/photos/811428/pexels-photo-811428.jpeg?h=350&auto=compress&cs=tinysrgb);
+  background: url(https://images.pexels.com/photos/3977529/pexels-photo-3977529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-size: cover;
   background-position: center bottom;
   height: 130vh; }
 
 .slogan {
-  background-color: rgba(147, 173, 214, 0.5);
-  max-width: 800px;
-  margin-left: 110px; }
+  background-color: rgba(243, 172, 139,0.5);
+  max-width: 400px;
+  float: right;
+  margin-right: 15px;}
   .slogan h1 {
+    color: #4E4C4D;
     font-size: 35px;
     text-align: center;
-    padding-right: 15px; }
+    padding: 15px;
+    letter-spacing: 3px;
+    word-spacing: 5px; }
 
 .icons, .icons .fa {
   margin: 50px auto;
